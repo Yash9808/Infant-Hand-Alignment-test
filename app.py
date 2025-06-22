@@ -71,5 +71,6 @@ def index():
 def video():
     return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
+# ✅ THIS IS THE CORRECT WAY FOR REPLIT
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8080)
