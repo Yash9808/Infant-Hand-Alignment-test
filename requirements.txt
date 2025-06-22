@@ -2,3 +2,6 @@ flask
 opencv-python
 mediapipe
 numpy
+django
+gunicorn
+psycopg2-binary  # if you're using PostgreSQL
